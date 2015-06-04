@@ -1,10 +1,7 @@
 var React = require('react')
-/*var CommentBox = require('./commentbox');
-var CommentList = require('./commentlist');
-var Comment = require('./comment');*/
 
 var CommentForm = React.createClass({
-/*  handleSubmit: function(e) {
+  handleSubmit: function(e) {
     e.preventDefault();
     var author = React.findDOMNode(this.refs.author).value.trim();
     var text = React.findDOMNode(this.refs.text).value.trim();
@@ -15,7 +12,7 @@ var CommentForm = React.createClass({
     React.findDOMNode(this.refs.author).value = '';
     React.findDOMNode(this.refs.text).value = '';
     return;
-  },*/
+  },
   render: function() {
     return (
       <form className="commentForm" onSubmit={this.handleSubmit}>
